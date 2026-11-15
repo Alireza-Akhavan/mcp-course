@@ -1,0 +1,14 @@
+# Tested on 2026-11-14 with:
+#   mcp 1.30.0 | langchain-mcp-adapters 0.3.2 | langchain 1.5.0 | langchain-openai 1.8.0 | openai 3.51.0
+#
+# NOTE: mcp 2.x exists, but langchain-mcp-adapters 0.3.2 requires mcp<2.
+#       So the whole course uses the 1.x line of the official SDK.
+mcp>=1.24,<2
+langchain-mcp-adapters>=0.3.2
+langchain>=1.0
+langchain-openai>=1.0
+openai
+python-dotenv
+httpx
+arxiv
+jupyter
